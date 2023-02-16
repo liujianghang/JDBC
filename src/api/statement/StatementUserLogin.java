@@ -1,8 +1,5 @@
 package api.statement;
 
-import com.mysql.cj.jdbc.Driver;
-
-import java.lang.invoke.VarHandle;
 import java.sql.*;
 import java.util.Properties;
 import java.util.Scanner;
@@ -62,8 +59,12 @@ public class StatementUserLogin {
         Connection connection2 = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc_test?user=root&password=qqljhwhg416");
         // 3.创建发送sql语句的statement对象
         Statement statement = connection2.createStatement();
-        // 4.发送sql语句，并且获取返回值
+        // 4.发送sql语句，并且获取返回值(statement这种形式麻烦)
         String sql = "select * from t_user WHERE account = '" + account + "' AND PASSWORD = '" + password + "';";
+        // 上面的sql类型有问题
+        //  TODO 1.要拼接字符串，麻烦
+        //       2.只能拼接字符串类型，其他数据库的类型无法处理
+        //       3.可能发生注入攻击（动态值充当了sql语句）
         // sql分类 DDL(容器创建，修改，删除) DML(插入，修改，删除) DQL(查询) DCL(权限控制) TPL(事务控制语句)
         //  TODO executeUpdate(sql):参数: sql 非DQL 返回: int
         //      情况1∶DML返回影响的行数，例如:删除了三条数据return 3;插入了两条return 2;修改了0条 return 0;

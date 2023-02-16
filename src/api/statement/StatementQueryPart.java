@@ -27,7 +27,8 @@ public class StatementQueryPart {
         //  jdbc:mysql://127.0.0.1:3306/jdbc_test
         //  user
         //  password
-        Connection connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdbc_test", "root", "qqljhwhg416");
+        //Connection connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdbc_test", "root", "qqljhwhg416");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdbc_test", "root", "root");
         // 3.创建statement
         Statement statement = connection.createStatement();
         // 4.发送sql语句，并且获取返回值
