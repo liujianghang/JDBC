@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac82b524-6347-4601-886c-898b954438e4" name="Changes" comment="update PreparedStatement,returnPrimaryKey,testBatchInsert">
+    <list default="true" id="ac82b524-6347-4601-886c-898b954438e4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/druid-1.2.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.32.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/druid/DruidUsePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/druid/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/tranctionV2/BankDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/tranctionV2/BankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/utils/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/utils/JdbcCrudPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/utils/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/utils/JdbcUtilsV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/transaction/BankDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/transaction/BankDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/transaction/BankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/transaction/BankService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/preparedstatment/PSCURDPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/preparedstatment/PSCURDPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/statement/StatementUserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/statement/StatementUserLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,6 +45,7 @@
   </component>
   <component name="ProjectId" id="2LdZJAmbMYC5vcApm0IagCLm0XX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -33,124 +53,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/JDBC/lib&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Projects/JDBC/src/api/tranctionV2",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\JDBC\src\api\tranctionV2" />
+      <recent name="D:\Projects\JDBC\src\api" />
+      <recent name="D:\Projects\JDBC\src\api\transaction2" />
       <recent name="D:\Projects\JDBC\lib" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="api.utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.BankService.start">
-    <configuration name="BankService.start" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.StatementUserLogin">
+    <configuration name="StatementQueryPart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api.statement.StatementQueryPart" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.transaction.*" />
+          <option name="PATTERN" value="api.statement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api.transaction" />
-      <option name="MAIN_CLASS_NAME" value="api.transaction.BankService" />
-      <option name="METHOD_NAME" value="start" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PSCURDPart.testSelect" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StatementUserLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api.statement.StatementUserLogin" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.preparedstatment.*" />
+          <option name="PATTERN" value="api.statement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api.preparedstatment" />
-      <option name="MAIN_CLASS_NAME" value="api.preparedstatment.PSCURDPart" />
-      <option name="METHOD_NAME" value="testSelect" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PSOtherPart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.preparedstatment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.preparedstatment" />
-      <option name="MAIN_CLASS_NAME" value="api.preparedstatment.PSOtherPart" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PSOtherPart.returnPrimaryKey" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.preparedstatment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.preparedstatment" />
-      <option name="MAIN_CLASS_NAME" value="api.preparedstatment.PSOtherPart" />
-      <option name="METHOD_NAME" value="returnPrimaryKey" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PSOtherPart.testInsert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.preparedstatment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.preparedstatment" />
-      <option name="MAIN_CLASS_NAME" value="api.preparedstatment.PSOtherPart" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BankService.start" />
-        <item itemvalue="TestNG.PSOtherPart.testInsert" />
-        <item itemvalue="TestNG.PSOtherPart" />
-        <item itemvalue="TestNG.PSOtherPart.returnPrimaryKey" />
-        <item itemvalue="TestNG.PSCURDPart.testSelect" />
+        <item itemvalue="Application.StatementUserLogin" />
+        <item itemvalue="Application.StatementQueryPart" />
       </list>
     </recent_temporary>
   </component>
@@ -164,35 +124,10 @@
       <updated>1676202845655</updated>
       <workItem from="1676202846745" duration="7954000" />
       <workItem from="1676272214943" duration="492000" />
-      <workItem from="1676545065908" duration="7040000" />
-      <workItem from="1676602128185" duration="1976000" />
     </task>
-    <task id="LOCAL-00001" summary="update PreparedStatement,returnPrimaryKey,testBatchInsert">
-      <created>1676552100758</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1676552100758</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="update PreparedStatement,returnPrimaryKey,testBatchInsert" />
-    <option name="LAST_COMMIT_MESSAGE" value="update PreparedStatement,returnPrimaryKey,testBatchInsert" />
   </component>
 </project>

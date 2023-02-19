@@ -89,7 +89,7 @@ public class StatementUserLogin {
             String account1 = resultSet.getString("account");
             String password1 = resultSet.getString("password");
             String nickname = resultSet.getString("nickname");
-            System.out.println(id + "--" + account + "--" + password + "--" + nickname);
+            System.out.println(id + "--" + account1 + "--" + password1 + "--" + nickname);
         }else {
             System.out.println("登陆失败！");
         }
